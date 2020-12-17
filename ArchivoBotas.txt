@@ -1,0 +1,1 @@
+Calzado{marca='', tipo='Bota', medida=10, estilo='montanesas'}

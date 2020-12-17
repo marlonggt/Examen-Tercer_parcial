@@ -1,0 +1,1 @@
+Calzado{marca='', tipo='Tenis', medida=7, estilo='Skate'}
