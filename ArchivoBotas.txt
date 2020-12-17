@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 Calzado{marca='', tipo='Bota', medida=10, estilo='montanesas'}
+=======
+Calzado{marca='Laredo', tipo='Botas', medida=9, estilo='montanesa'}
+>>>>>>> Initial commit
