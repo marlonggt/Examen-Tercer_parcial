@@ -31,7 +31,7 @@ public class Tenis extends Zapato {
     @Override
     public void toFile(File obj) throws IOException {
         String propiedades = toString();
-        FileWriter escribir = new FileWriter(obj);
+        FileWriter escribir = new FileWriter(obj,true);
         escribir.write(propiedades+"\n");
         escribir.close();
 
