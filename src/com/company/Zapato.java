@@ -34,7 +34,7 @@ public abstract class Zapato {
     }
 
     public String calzar(){
-        String frase = "Que bien me quedan est@s "+getTipo()+" que son talla "+getTalla();
+        String frase = "Que bien me quedan est@s "+getTipo()+" que son talla "+getTalla()+"\n";
 
         return frase;
     }
