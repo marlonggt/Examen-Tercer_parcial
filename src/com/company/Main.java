@@ -36,11 +36,12 @@ public class Main {
             System.out.println("3._Zandalias");
             int opc = rd.nextInt();
             char opc2;
+            rd.nextLine();
 
             if(opc==1){
                 System.out.println("elija la Marca:");
                 String marca = rd.nextLine();
-                rd.nextLine();
+
 
                 System.out.println("elija el Estilo:");
                 String estilo = rd.nextLine();
@@ -61,11 +62,12 @@ public class Main {
                 Zapato zp1 = new Botas(marca,estilo,talla);
                 zapatosArr.add(zp1.toString());
                 zp1.toFile(file1);
+                System.out.println(zp1.calzar());
 
             } else if (opc == 2){
                 System.out.println("elija la Marca:");
                 String marca = rd.nextLine();
-                rd.nextLine();
+
 
                 System.out.println("elija el Estilo:");
                 String estilo = rd.nextLine();
@@ -83,11 +85,12 @@ public class Main {
                 Zapato zp2 = new Tenis(marca,estilo,talla);
                 zapatosArr.add(zp2.toString());
                 zp2.toFile(file2);
+                System.out.println(zp2.calzar());
 
             } else if (opc == 3){
                 System.out.println("elija la Marca:");
                 String marca = rd.nextLine();
-                rd.nextLine();
+
 
                 System.out.println("elija el Estilo:");
                 String estilo = rd.nextLine();
@@ -105,6 +108,7 @@ public class Main {
                 Zapato zp3 = new Zandalias(marca,estilo,talla);
                 zapatosArr.add(zp3.toString());
                 zp3.toFile(file3);
+                System.out.println(zp3.calzar());
             }
 
         }
